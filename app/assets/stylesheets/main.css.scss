@@ -1,0 +1,444 @@
+// Place all the styles related to the main controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+	font-family: "Copperplate",sans-serif;
+	font-style: normal;
+}
+.header_link{
+	float:left;
+	background-image:image-url('header_snuwomanski.png');
+	margin-left:100px;
+	width:250px;
+	height:70px;
+}
+.header_form{
+	float:right;
+	margin-right:100px;
+	padding-top:12px;
+
+}
+#header_userid{
+	width:230px;
+	height:45px;
+	float:left;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background-color: #fff;
+	color: #999;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: none;
+	margin-right: 16px;
+	display: block;
+	padding: 17px 18px;
+	border-radius: 5px;
+	font-family: "Copperplate",sans-serif;
+	font-style: normal;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size:14px;	 
+	margin-right:5px;
+}
+#header_password{
+	width:230px;
+	height:45px;
+	float:left;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background-color: #fff;
+	color: #999;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: none;
+	margin-right: 16px;
+	display: block;
+	padding: 17px 18px;
+	border-radius: 5px;
+	font-family: "Copperplate",sans-serif;
+	font-style: normal;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size:14px;	 
+	margin-right:5px;
+}
+
+
+.header_submit{
+	width:150px;
+	height:45px;
+	float:left;
+	background-color:white;
+	font-size:24px;
+	border-radius: 5px;
+	border: none;
+	color:#ee373c;
+	font-family: "Copperplate",sans-serif;
+}
+
+body{
+	margin:0px;
+}
+#main{
+
+}
+#main0{
+	padding-top:70px;
+	width:100%;
+	min-height:800px;
+	float:left;
+	background-image:image-url('background111.png');
+	display:block;
+	position: relative;
+	background-repeat:no-repeat;
+	-webkit-background-size: auto 100%;
+	-moz-background-size: auto 100%;
+	-o-background-size: auto 100%;
+	background-size: auto 100%;
+	background-size:cover;
+	background-position: center center;
+
+}
+.main0_logo{
+	width:550px;
+	height:400px;
+	background-image:image-url('main0_logo.png');
+	display:block;
+	background-position:center center;
+	margin-top:50px;
+}
+.main0_text{
+	margin-top:50px;
+	color:#404041;
+	font-size:21px;
+}
+#main1{
+	width:100%;
+	height:800px;
+	display:block;
+	float:left;
+	background-image:image-url('background2.png');
+	.main1_subject{
+		width:400px;
+		height:150px;
+		display:block;
+		background-image:image-url('main1_subject.png');
+
+	}
+}
+.main1_div{
+	width:1000px;
+	height:500px;
+	margin-top:20px;
+}
+.main1_div1{
+	width:300px;
+	height:500px;
+	float:left;
+	margin-right:25px;
+}
+.main1_div1_gif{
+	width:300px;
+	height:300px;
+	background-image:image-url('main1_div1_gif.gif');
+
+}
+.main1_div_subject{
+	width:250px;
+	height:40px;
+	background-color:#ee373c;
+	border-radius:20px;
+}
+.main1_div_text{
+	font-size:21px;
+	color:white;
+	padding-top:7px;
+}
+.main1_div_p{
+	margin-top:30px;
+	font-size:14px;
+	color:#404041;
+
+}
+.main1_div2{
+	width:300px;
+	height:500px;
+	float:left;
+	margin-left:25px;
+	margin-right:25px;
+}
+.main1_div2_gif{
+	width:300px;
+	height:300px;
+	background-image:image-url('main1_div2_gif.gif');
+}
+
+.main1_div3{
+	width:300px;
+	height:500px;
+	float:left;
+	margin-left:25px;
+}
+.main1_div3_gif{
+	width:300px;
+	height:300px;
+	background-image:image-url('main1_div3_gif.gif');
+}
+.main1_decoration{
+	background-image:image-url('main1_decoration.png');
+	width:250px;
+	height:100px;
+	background-position: center center;
+}
+
+#main2{
+	float:left; 
+	width:100%; 
+	height:800px; 
+	background-image:image-url('main2_background.png');
+	display:block;
+	background-position:center center;	
+	background-repeat:no-repeat;
+	background-color:#9e1f22;
+}
+.main2_subject{
+	width:400px;
+	height:150px;
+	display:block;
+	background-image:image-url('main2_subject.png');
+	margin-bottom:50px;
+}
+.main2_name{
+	width:1000px; 
+	height:425px; 
+	margin-left:auto; 
+	margin-right:auto;
+}
+.main2_name_left{
+	width:500px; 
+	height:425px; 
+	padding-left:75px;
+	float:left;
+}
+.main2_row1{
+	width:70px; 
+	height:425px;
+	float:left;
+}
+a.name{
+	background-color:#0f324e;
+	width:70px;
+	height:40px; 
+	display:block;
+	border-radius:5px;
+	margin-bottom:15px;
+}
+#name{
+	background-color:#0f324e;
+	width:70px;
+	height:40px; 
+	display:block;
+	border-radius:5px;
+	margin-bottom:15px;
+	color:white;
+	font-size:18px;
+	padding-top:9px;
+	padding-left:7px;
+}
+p.name{
+	color:white;
+	font-size:18px;
+	padding-top:10px;
+	padding-left:7px;
+}
+.main2_row2{
+	float:left;
+	margin-left:15px;
+	width:70px;
+	height:425px;
+}
+.main2_row3{
+	float:left;
+	margin-left:15px;
+	width:70px;
+	height:425px;
+}
+.main2_row4{
+	float:left;
+	margin-left:15px;
+	width:70px;
+	height:425px;
+}
+.main2_row5{
+	float:left;
+	margin-left:15px;
+	width:70px;
+	height:425px;
+}
+.main2_name_right{
+	width:500px; 
+	height:425px; 
+	padding-left:0px; 
+	float:left;
+}
+.main2_row6{
+	float:left;
+	margin-left:15px;
+	width:70px;
+	height:425px;	
+}
+.main2_row7{
+	float:left;
+	margin-left:15px;
+	width:70px;
+	height:425px;		
+}
+.main2_row8{
+	float:left;
+	margin-left:15px;
+	width:70px;
+	height:425px;		
+}
+.main2_row9{
+	float:left;
+	margin-left:15px;
+	width:70px;
+	height:425px;		
+}
+.main2_row10{
+	float:left;
+	margin-left:15px;
+	width:70px;
+	height:425px;		
+}
+
+a.name_right{
+	background-color:#de2e26;
+	width:70px;
+	height:40px; 
+	display:block;
+	border-radius:5px;
+	margin-bottom:15px;
+}
+
+#main3{
+	float:left;
+	width:100%;
+	height:800px;
+	background-image:image-url('background2.png');
+
+}
+.main3_subject{
+	width:450px;
+	height:150px;
+	display:block;
+	background-image:image-url('main3_subject.png');
+}
+#main3_submit{
+	width:250px;
+	height:45px;
+	float:left;
+	background-color:white;
+	font-size:24px;
+	border-radius: 5px;
+	border: none;
+	color:#ee373c;
+	font-family: "Copperplate",sans-serif;
+	padding-top:7px;
+	margin-right:auto;
+	margin-left:auto;
+}
+#main4_submit{
+	width:230px;
+	height:45px;
+	float:left;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background-color: #fff;
+	color: #999;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: none;
+	margin-right: 16px;
+	display: block;
+	padding: 17px 18px;
+	border-radius: 5px;
+	font-family: "Copperplate",sans-serif;
+	font-style: normal;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size:14px;	 
+	margin-right:5px;
+
+}
+#main4{
+	float:left;
+	width:100%;
+	height:800px;
+	background-color:#ee373c;
+
+}
+.main4_subject{
+	width:400px;
+	height:200px;
+	display:block;
+	background-image:image-url('main4_subject.png');
+}
+.main4_form{
+	width:800px;
+	height:700px;
+	background-repeat:no-repeat;
+	z-index:5px;
+	background-image:image-url('main4_form.png');
+	margin-top: 50px;
+}
+#main4_input{
+	width:230px;
+	height:45px;
+	float:left;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background-color: #fff;
+	color: #999;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: none;
+	margin-right: 16px;
+	display: block;
+	padding: 17px 18px;
+	border-radius: 5px;
+	font-family: "Copperplate",sans-serif;
+	font-style: normal;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size:14px;	 
+	margin-right:5px;
+	margin-bottom:15px;
+}
+
+.main4_input{
+	width:500px;
+	height:500px;
+	margin-top:30px;
+}
+.main4_input_left{
+	width:250px;
+	height:300px;
+	float:left;
+}
+.main4_input_right{
+	width:250px;
+	height:300px;
+	float:left;
+}.main4_submit{
+	margin-left:125px;
+	width:250px;
+	height:45px;
+	float:left;
+	background-color:white;
+	font-size:24px;
+	border-radius: 5px;
+	border: none;
+	color:#ee373c;
+	font-family: "Copperplate",sans-serif;
+}

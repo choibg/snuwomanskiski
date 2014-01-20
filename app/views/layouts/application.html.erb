@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
   <title>Snuwomanski</title>
+  <link href="../../dist/css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="jumbotron-narrow.css" rel="stylesheet">   
+  <meta http-equiv="Content-type" content="text/html"; charset=utf-8">
+  <meta name="keywords" content="Snuwomanski, 서울대여자스키부, 스키, 김태희, 서울대학교, 겨울스키부, 이하늬, 오정연">
+  <meta name="description" content="겨울이면 스키를 즐기는 동아리, 서울대여자스키부입니다.">
+  <meta name="author" content="Snuwomanski">
+  <meta name="publisher" content="Bokeum Choi">
+  <meta property="og:title" content="Snuwomanski">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="http://wafflestudio.com/images/wafflestudio_logo.jpg"> 
+  <meta property="og:url" content="http://snuwomanski.com">
+  <meta property="og:description" content="겨울이면 스키를 즐기는 동아리, 서울대여자스키부입니다.">
+
+
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+<%= render "layouts/header" %>
 
 <%= yield %>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>

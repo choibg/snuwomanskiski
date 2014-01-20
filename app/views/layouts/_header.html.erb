@@ -1,0 +1,10 @@
+<div style="width:100%; height:70px; background-color:#ee373c; float:left;">
+	<a href="/" class="header_link"></a>
+	<div class="header_form">
+	<%=form_tag('/main/login') do%>
+		<%=text_field_tag 'header_userid', nil, :placeholder =>'ID'%>  
+		<%=password_field_tag 'header_password', nil, :placeholder =>'password'%>
+		<%=submit_tag "login", class:"header_submit"%>
+	<% end %>
+	</div>
+</div>

@@ -1,0 +1,12 @@
+
+	<%=form_tag('/user/join_process') do%>
+		<p>아이디 : <%=text_field_tag "userid"%></p><br>
+		<p>비밀번호 :<%=password_field_tag "passwd"%></p><br>
+		<p>이름 : <%=text_field_tag "realname"%></p><br>
+		<p>전화번호 : <%=text_field_tag "phone_number" %></p><br>
+		<p>학번 : <%=text_field_tag "year" %></p><br>
+		<p>나이 : <%=text_field_tag "age" %></p><br>
+		<%=submit_tag "submit"%> 
+	<% end %>
+
+
