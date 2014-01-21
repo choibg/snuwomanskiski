@@ -348,6 +348,18 @@ a.name_right{
 	margin-right:auto;
 	margin-left:auto;
 }
+#name_right{
+	background-color:#ee373c;
+	width:70px;
+	height:40px; 
+	display:block;
+	border-radius:5px;
+	margin-bottom:15px;
+	color:white;
+	font-size:18px;
+	padding-top:9px;
+	padding-left:7px;
+}
 #main4_submit{
 	width:230px;
 	height:45px;
@@ -415,7 +427,29 @@ a.name_right{
 	margin-right:5px;
 	margin-bottom:15px;
 }
-
+#main4_input_area{
+	width:230px;
+	height:225px;
+	float:left;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background-color: #fff;
+	color: #999;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: none;
+	margin-right: 16px;
+	display: block;
+	padding: 17px 18px;
+	border-radius: 5px;
+	font-family: "Copperplate",sans-serif;
+	font-style: normal;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size:14px;	 
+	margin-right:5px;
+	margin-bottom:15px;
+}
 .main4_input{
 	width:500px;
 	height:500px;
